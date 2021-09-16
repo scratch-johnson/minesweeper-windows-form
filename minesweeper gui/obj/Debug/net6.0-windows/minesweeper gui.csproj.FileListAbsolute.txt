@@ -1,0 +1,17 @@
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\minesweeper gui.exe
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\minesweeper gui.deps.json
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\minesweeper gui.runtimeconfig.json
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\minesweeper gui.dll
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\ref\minesweeper gui.dll
+C:\Users\noah\source\repos\minesweeper gui\bin\Debug\net6.0-windows\minesweeper gui.pdb
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.csproj.AssemblyReference.cache
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper_gui.Form1.resources
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.csproj.GenerateResource.cache
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.AssemblyInfoInputs.cache
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.AssemblyInfo.cs
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.csproj.CoreCompileInputs.cache
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.dll
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\ref\minesweeper gui.dll
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.pdb
+C:\Users\noah\source\repos\minesweeper gui\obj\Debug\net6.0-windows\minesweeper gui.genruntimeconfig.cache
