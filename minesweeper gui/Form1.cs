@@ -46,27 +46,22 @@ namespace minesweeper_gui
 
         public void field(int width, int height, int bombsAmt)
         {
-            if (width > Globals.MAX_WIDTH || height > Globals.MAX_HEIGHT || bombsAmt > Globals.MAX_BOMBS || width < 1 || height < 1 || bombsAmt < 1)
-            {
-                //error check, obsolete
-            }
-
             m_width = width;
             m_height = height;
             m_bombsAmt = bombsAmt;
             m_bombsRemaining = m_bombsAmt;
             m_spacesRemaining = width * height;
 
-            for (int r = 0; r < m_height; r++)          //fills field
+            for (int r = 0; r < m_height; r++)          //fills field with #
                 for (int c = 0; c < m_width; c++)
                     m_spaces[r, c] = '#';
 
-            for (int m = 0; m < m_bombsAmt; m++)        //fills the field with bombs
+            for (int m = 0; m < m_bombsAmt; m++)        //initializes the bombs
             {
                 m_bombs[m] = new Bomb();
             }
 
-            randBombPos(m_bombs, m_bombsAmt, m_width - 1, m_height - 1);
+            randBombPos(m_bombs, m_bombsAmt, m_width - 1, m_height - 1);    //fills the field with bombs
 
             //last chunk fills uncovered field
             for (int r = 0; r < m_height; r++)          //fills uncovered field
@@ -194,16 +189,13 @@ namespace minesweeper_gui
             }
         }
 
-        private void endGame(string endTxt)
+        private void endGame(string endTxt)         //perform game ending actions
         {
             if (endTxt == "Game Over")
             {
                 foreach (Button b in buttons)
-                {
-                    b.Enabled = false;
                     if (m_spacesReveal[buttonCoords(b)[1], buttonCoords(b)[0]] == 'b')
                         b.Text = "B";
-                }
             }
             else
                 foreach (Button b in buttons)
@@ -330,12 +322,10 @@ namespace minesweeper_gui
                         {
                             switch (e.Button)
                             {
-                                //tile selecting
                                 case MouseButtons.Left:
                                     if (tmpButton.Text == "f") break;
                                     selectSpace(tmpButton);
                                     break;
-                                //tile flagging/unflagging
                                 case MouseButtons.Right:
                                     if (tmpButton.Text == "f")
                                     {

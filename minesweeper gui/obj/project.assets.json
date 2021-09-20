@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\noah\\source\\repos\\minesweeper gui\\minesweeper gui.csproj",
+      "projectUniqueName": "C:\\Users\\noah\\source\\repos\\minesweeper-windows-form-main\\minesweeper gui\\minesweeper gui.csproj",
       "projectName": "minesweeper gui",
-      "projectPath": "C:\\Users\\noah\\source\\repos\\minesweeper gui\\minesweeper gui.csproj",
+      "projectPath": "C:\\Users\\noah\\source\\repos\\minesweeper-windows-form-main\\minesweeper gui\\minesweeper gui.csproj",
       "packagesPath": "C:\\Users\\noah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\noah\\source\\repos\\minesweeper gui\\obj\\",
+      "outputPath": "C:\\Users\\noah\\source\\repos\\minesweeper-windows-form-main\\minesweeper gui\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\noah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,15 +55,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

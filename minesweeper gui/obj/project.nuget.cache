@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k0NjFL5SZfaOm7yJYaTNWSe713YTvo9IebQZe7ZrZMuA0aJZnG41HISqmFIeqpGtwriCz2MH12mSN1UvqomI3Q==",
+  "dgSpecHash": "zqJadeGFiCjjTR9axlncRxHSBnuXPA2SPW8jIyZkgRxA9G9LkR/d0sQGfkMyKSwsYr6RB63Y0R2c6UxNyv7/SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noah\\source\\repos\\minesweeper gui\\minesweeper gui.csproj",
+  "projectFilePath": "C:\\Users\\noah\\source\\repos\\minesweeper-windows-form-main\\minesweeper gui\\minesweeper gui.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
