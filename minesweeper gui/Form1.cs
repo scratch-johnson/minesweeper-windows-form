@@ -199,8 +199,11 @@ namespace minesweeper_gui
             if (endTxt == "Game Over")
             {
                 foreach (Button b in buttons)
+                {
+                    b.Enabled = false;
                     if (m_spacesReveal[buttonCoords(b)[1], buttonCoords(b)[0]] == 'b')
                         b.Text = "B";
+                }
             }
             else
                 foreach (Button b in buttons)
@@ -327,10 +330,12 @@ namespace minesweeper_gui
                         {
                             switch (e.Button)
                             {
+                                //tile selecting
                                 case MouseButtons.Left:
                                     if (tmpButton.Text == "f") break;
                                     selectSpace(tmpButton);
                                     break;
+                                //tile flagging/unflagging
                                 case MouseButtons.Right:
                                     if (tmpButton.Text == "f")
                                     {
